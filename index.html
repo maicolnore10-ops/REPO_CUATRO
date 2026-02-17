@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre | Desarrollador Full Stack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="scroll-indicator"></div>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO</div>
+        <ul class="nav-links">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#skills">Conocimientos</a></li>
+            <li><a href="#timeline">Estudios</a></li>
+            <li><a href="#goals">Metas</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <img src="asset/img.png" alt="Tu Foto" class="profile-img">
+            <h1>Hola, soy <span class="typing">Maicol Nore </span></h1>
+            <p class="subtitle">Desarrollador en formación | Apasionado por la tecnología</p>
+            <p class="welcome-msg">Bienvenido a mi espacio digital donde la lógica se encuentra con la creatividad.</p>
+            <a href="#skills" class="btn-primary">Ver Portafolio <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container" data-aos="fade-right">
+            <h2 class="section-title">Sobre mí</h2>
+            <p class="about-text">
+                Soy una persona apasionada por la tecnología y el aprendizaje continuo. Creo fielmente que el crecimiento personal 
+                va de la mano con los retos técnicos. Mi objetivo es evolucionar constantemente, enfrentando nuevos desafíos 
+                que me permitan aportar valor al mundo digital.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Conocimientos</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Estructura semántica (Básico)</p>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Diseño responsivo (Básico)</p>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Lógica y Scripts (Básico)</p>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Control de versiones (Básico)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section">
+        <div class="container">
+            <h2 class="section-title">Estudios</h2>
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <h3>Bachillerato</h3>
+                        <p>Formación básica secundaria y media técnica.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="content">
+                        <h3>Técnico en Sistemas</h3>
+                        <p>Especialización en mantenimiento de computadores, cableado estructurado y fundamentos de programación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-item" data-aos="flip-up"><i class="fas fa-soccer-ball"></i> Fútbol</div>
+                <div class="hobby-item" data-aos="flip-up" data-aos-delay="100"><i class="fas fa-gamepad"></i> Videojuegos</div>
+                <div class="hobby-item" data-aos="flip-up" data-aos-delay="200"><i class="fas fa-motorcycle"></i> Motos</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="goals" class="goals-parallax">
+        <div class="overlay"></div>
+        <div class="container goals-content" data-aos="fade-up">
+            <h2 class="section-title white">Sueños y Metas</h2>
+            <ul>
+                <li><i class="fas fa-home"></i> Darle una casa a mis padres</li>
+                <li><i class="fas fa-leaf"></i> Tener una vida tranquila</li>
+                <li><i class="fas fa-chart-line"></i> Vivir sin deudas</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container" data-aos="fade-in">
+            <h2 class="section-title">Video Presentación</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="assets/video.mp4" type="video/mp4">
+                    Tu navegador no soporta videos.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Tu Nombre - Todos los derechos reservados.</p>
+    </footer>
+
+    <button id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        
+        // Loader logic
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            loader.style.opacity = '0';
+            setTimeout(() => loader.style.display = 'none', 500);
+        });
+
+        // Scroll progress
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.querySelector(".scroll-indicator").style.width = scrolled + "%";
+            
+            // Back to top button
+            const btn = document.getElementById('backToTop');
+            if (winScroll > 300) btn.style.display = "block";
+            else btn.style.display = "none";
+        };
+
+        document.getElementById('backToTop').onclick = () => {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+    </script>
+</body>
+</html>
