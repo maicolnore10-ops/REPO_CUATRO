@@ -20,3 +20,12 @@ Soy estudiante de **Análisis y Desarrollo de Software** en el SENA, con una bas
 * **Email:** [maicolnore10@gmail.com]
 
 ---
+## PAGGINA WEB
+
+- file:///C:/Users/Aprendiz%20Tarde/OneDrive%20-%20SENA/Documentos/repositorio_3237831/REPO_CUATRO/REPO_CUATRO/index.html#about
+
+## VIDEO YOUTUBE
+
+- https://www.youtube.com/watch?v=rscOXVuaCGw&list=RDEMZRf92Y8wTrO8QG9w3SBJvg&start_radio=1
+
+---
